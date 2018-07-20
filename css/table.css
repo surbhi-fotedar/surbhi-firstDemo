@@ -1,0 +1,25 @@
+table{
+  width: 100%;
+}
+table,th,td{
+  font-family: 'Times New Roman', Times, serif;
+  border: 1px solid #dddddd;
+  border-collapse: collapse;
+  
+}
+
+td,th{
+  text-align: left;
+  padding: 8px;
+}
+
+.strippedTable tr:nth-child(even) {
+  background-color: #eeeeee;
+}
+.strippedTable tr:nth-child(odd) {
+ background-color:#C6B8CE;
+}
+.strippedTable th {
+  background-color: black;
+  color: white;
+}
