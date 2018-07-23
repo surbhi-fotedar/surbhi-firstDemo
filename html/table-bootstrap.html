@@ -14,147 +14,195 @@
   <div class="container-fluid">
     <div class="table-responsive">
       <table class="table">
-        <h1>Basic table Example</h1>
-        <tr>
-          <th>#</th>
-          <th>Firstname</th>
-          <th>Lastname</th>
-          <th>Age</th>
-        </tr>
-        <tr>
-          <td>1</td>
-          <td>Jill</td>
-          <td>Smith</td>
-          <td>50</td>
-        </tr>
-        <tr>
-          <td>2</td>
-          <td>Eve</td>
-          <td>Jackson</td>
-          <td>94</td>
-        </tr>
-        <tr>
-          <td>3</td>
-          <td>John</td>
-          <td>Doe</td>
-          <td>80</td>
-        </tr>
-      </table>
-      </div>
-      <br>
-      <table class="table table-striped">
-        <h1>Striped rows example</h1>
-        <tr>
-          <th>#</th>
-          <th>Firstname</th>
-          <th>Lastname</th>
-          <th>Age</th>
-        </tr>
-        <tr>
-          <td>1</td>
-          <td>Jill</td>
-          <td>Smith</td>
-          <td>50</td>
-        </tr>
-        <tr>
-          <td>2</td>
-          <td>Eve</td>
-          <td>Jackson</td>
-          <td>94</td>
-        </tr>
-        <tr>
-          <td>3</td>
-          <td>John</td>
-          <td>Doe</td>
-          <td>80</td>
-        </tr>
-      </table>
-      <br>
-      <table class="table table-bordered">
-        <h1>Bordered table example</h1>
-        <tr>
-          <th>#</th>
-          <th>Firstname</th>
-          <th>Lastname</th>
-          <th>Age</th>
-        </tr>
-        <tr>
-          <td>1</td>
-          <td>Jill</td>
-          <td>Smith</td>
-          <td>50</td>
-        </tr>
-        <tr>
-          <td>2</td>
-          <td>Eve</td>
-          <td>Jackson</td>
-          <td>94</td>
-        </tr>
-        <tr>
-          <td>3</td>
-          <td>John</td>
-          <td>Doe</td>
-          <td>80</td>
-        </tr>
-      </table>
-      <br>
-      <table class="table table-hover">
-        <h1>Hover rows example</h1>
-        <tr>
-          <th>#</th>
-          <th>Firstname</th>
-          <th>Lastname</th>
-          <th>Age</th>
-        </tr>
-        <tr>
-          <td>1</td>
-          <td>Jill</td>
-          <td>Smith</td>
-          <td>50</td>
-        </tr>
-        <tr>
-          <td>2</td>
-          <td>Eve</td>
-          <td>Jackson</td>
-          <td>94</td>
-        </tr>
-        <tr>
-          <td>3</td>
-          <td>John</td>
-          <td>Doe</td>
-          <td>80</td>
-        </tr>
-      </table>
-      <br>
-      <table class="table table-condensed">
-        <h1>Condensed table example used contextual classes</h1>
-        <tr class="active">
-          <th>#</th>
-          <th>Firstname</th>
-          <th>Lastname</th>
-          <th>Age</th>
-        </tr>
-        <tr class="success">
-          <td class="active">1</td>
-          <td>Jill</td>
-          <td>Smith</td>
-          <td>50</td>
-        </tr>
-        <tr class="warning">
-          <td>2</td>
-          <td class="success">Eve</td>
-          <td>Jackson</td>
-          <td>94</td>
-        </tr>
-        <tr class="danger">
-          <td>3</td>
-          <td>John</td>
-          <td class="warning">Doe</td>
-          <td>80</td>
-        </tr>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Table heading</th>
+            <th>Table heading</th>
+            <th>Table heading</th>
+            <th>Table heading</th>
+            <th>Table heading</th>
+            <th>Table heading</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Table cell</td>
+            <td>Table cell</td>
+            <td>Table cell</td>
+            <td>Table cell</td>
+            <td>Table cell</td>
+            <td>Table cell</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Table cell</td>
+            <td>Table cell</td>
+            <td>Table cell</td>
+            <td>Table cell</td>
+            <td>Table cell</td>
+            <td>Table cell</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Table cell</td>
+            <td>Table cell</td>
+            <td>Table cell</td>
+            <td>Table cell</td>
+            <td>Table cell</td>
+            <td>Table cell</td>
+          </tr>
+        </tbody>
       </table>
     </div>
-  
+    <div class="table-responsive">
+      <table class="table">
+        <h1>Basic table Example</h1>
+        <thead>
+        <tr>
+          <th>#</th>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Age</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>1</th>
+          <td>Jill</td>
+          <td>Smith</td>
+          <td>50</td>
+        </tr>
+        <tr>
+          <th>2</th>
+          <td>Eve</td>
+          <td>Jackson</td>
+          <td>94</td>
+        </tr>
+        <tr>
+          <th>3</th>
+          <td>John</td>
+          <td>Doe</td>
+          <td>80</td>
+        </tr>
+      </tbody>
+      </table>
+    </div>
+    <br>
+    <table class="table table-striped">
+      <h1>Striped rows example</h1>
+      <tr>
+        <th>#</th>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>50</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>94</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>John</td>
+        <td>Doe</td>
+        <td>80</td>
+      </tr>
+    </table>
+    <br>
+    <table class="table table-bordered">
+      <h1>Bordered table example</h1>
+      <tr>
+        <th>#</th>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>50</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>94</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>John</td>
+        <td>Doe</td>
+        <td>80</td>
+      </tr>
+    </table>
+    <br>
+    <table class="table table-hover">
+      <h1>Hover rows example</h1>
+      <tr>
+        <th>#</th>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>50</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>94</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>John</td>
+        <td>Doe</td>
+        <td>80</td>
+      </tr>
+    </table>
+    <br>
+    <table class="table table-condensed">
+      <h1>Condensed table example used contextual classes</h1>
+      <tr class="active">
+        <th>#</th>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Age</th>
+      </tr>
+      <tr class="success">
+        <td class="active">1</td>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>50</td>
+      </tr>
+      <tr class="warning">
+        <td>2</td>
+        <td class="success">Eve</td>
+        <td>Jackson</td>
+        <td>94</td>
+      </tr>
+      <tr class="danger">
+        <td>3</td>
+        <td>John</td>
+        <td class="warning">Doe</td>
+        <td>80</td>
+      </tr>
+    </table>
+  </div>
+
 </body>
 
 </html>
